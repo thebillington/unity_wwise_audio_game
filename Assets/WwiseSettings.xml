@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<WwiseSettings>
+    <CreateWwiseGlobal>true</CreateWwiseGlobal>
+    <CreateWwiseListener>true</CreateWwiseListener>
+    <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
+    <WwiseProjectPath>../unity_wwise_audio_game_WwiseProject/unity_wwise_audio_game_WwiseProject.wproj</WwiseProjectPath>
+    <WwiseInstallationPathWindows>E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\wwise_2022.1.4.8202</WwiseInstallationPathWindows>
+    <WwiseInstallationPathMac></WwiseInstallationPathMac>
+</WwiseSettings>

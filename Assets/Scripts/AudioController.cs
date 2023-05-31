@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioController : MonoBehaviour
-{
+public class AudioController : MonoBehaviour {
 
     public AK.Wwise.Bank mainBank = null;
     public AK.Wwise.Event enemy = null;

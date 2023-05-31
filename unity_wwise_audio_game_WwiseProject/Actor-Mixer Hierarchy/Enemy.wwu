@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0ADC8AAE-5487-4E78-868A-5054E40F3462}" SchemaVersion="110" RootDocumentID="{36BC8074-5933-40DD-9D65-C0CBD10BFCF0}" ParentDocumentID="{36BC8074-5933-40DD-9D65-C0CBD10BFCF0}">
+	<AudioObjects>
+		<WorkUnit Name="Enemy" ID="{0ADC8AAE-5487-4E78-868A-5054E40F3462}" OwnerID="{36BC8074-5933-40DD-9D65-C0CBD10BFCF0}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Enemy" ID="{87392962-2F71-444A-AA75-851898025D8F}" ShortID="792774654">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Enemy" ID="{C9AD2406-41C3-4D56-A859-B33BF9642C41}" ShortID="640065185">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="EnemyMUSCPerc" ID="{6E9A64E0-9F73-4A56-BF77-15F90AF35F7A}" ShortID="111636041">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyMUSCPerc" ID="{7991EEA6-7F1A-4D60-9F56-D9B00C2D5712}">
+											<Language>SFX</Language>
+											<AudioFile>EnemyMUSCPerc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="603772319"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyMUSCPerc" ID="{7991EEA6-7F1A-4D60-9F56-D9B00C2D5712}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,54 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Environment\Ambience	
+	779278001	Death			\Player\Death	
+	2252851541	Scanner			\Player\Scanner	
+	2299321487	Enemy			\Enemy\Enemy	
+	2385628198	Footsteps			\Player\Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1229948536	Environment			\Default Work Unit\Player\Environment	
+
+Switch	ID	Name	Switch Group			Notes
+	491961918	Forest	Environment			
+	803837735	Sand	Environment			
+	1863277111	Rocky	Environment			
+	2907906111	Swamp	Environment			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	46625120	FOOTSTEPS_Sand_PRE04	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Sand_PRE04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE04		39606
+	157734844	Ellen_Footsteps_Puddle_Run_05	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\Ellen_Footsteps_Puddle_Run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_05		82416
+	163574391	FOOTSTEPS_Obsidian_PRE01-005	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Obsidian_PRE01-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-005		52090
+	174242076	WINDGust_Mountain	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\WINDGust_Mountain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Ambience_Rocky\WINDGust_Mountain		20783744
+	226359784	FOOTSTEPS_Sand_PRE02	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Sand_PRE02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE02		49988
+	245864734	Ellen_Footsteps_Puddle_Run_03	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\Ellen_Footsteps_Puddle_Run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_03		95648
+	246010067	AMBTrop-Forest	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\AMBTrop-Forest_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Ambience_Forest\AMBTrop-Forest		8174432
+	279698265	Ellen_Footsteps_Puddle_Run_01	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\Ellen_Footsteps_Puddle_Run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_01		94176
+	334718115	Ellen_Footsteps_Puddle_Run_06	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\Ellen_Footsteps_Puddle_Run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_06		82968
+	407928197	FOOTSTEPS_Obsidian_PRE01-006	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Obsidian_PRE01-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-006		56704
+	425847914	FOOTSTEPS_Obsidian_PRE01-002	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Obsidian_PRE01-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-002		47316
+	446572749	Ellen_Footsteps_Puddle_Run_02	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\Ellen_Footsteps_Puddle_Run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_02		92708
+	459363603	FOOTSTEPS_Obsidian_PRE01-007	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Obsidian_PRE01-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-007		53294
+	535887717	FOOTSTEPS_Wood_PRE_01-005	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Wood_PRE_01-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01-005		88236
+	555919805	FOOTSTEPS_Obsidian_PRE01-003	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Obsidian_PRE01-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-003		49684
+	600816993	FOOTSTEPS_Sand_PRE03	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Sand_PRE03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE03		44962
+	603772319	EnemyMUSCPerc	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\EnemyMUSCPerc_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy\Enemy\EnemyMUSCPerc		7515912
+	648626171	FOOTSTEPS_Wood_PRE_01	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Wood_PRE_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01		90620
+	673780605	FOOTSTEPS_Obsidian_PRE01-001	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Obsidian_PRE01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-001		48690
+	691658828	FOOTSTEPS_Wood_PRE_01-002	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Wood_PRE_01-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01-002		83000
+	694976049	AMBSwamp	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\AMBSwamp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Ambience_Swamp\AMBSwamp		12221248
+	705880674	FOOTSTEPS_Sand_PRE06	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Sand_PRE06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE06		38138
+	708034053	FOOTSTEPS_Wood_PRE_01-003	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Wood_PRE_01-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01-003		83770
+	748612986	FOOTSTEPS_Sand_PRE07	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Sand_PRE07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE07		44454
+	767519322	Ellen_Footsteps_Puddle_Run_04	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\Ellen_Footsteps_Puddle_Run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_04		91284
+	789838595	WATRSurf- Sand	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\WATRSurf- Sand_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Ambience_Sand\WATRSurf- Sand		15461332
+	824359952	Scan	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\Scan_3864DFED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Scanner\Scanner\Scan		386084
+	830234745	FOOTSTEPS_Wood_PRE_01-001	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Wood_PRE_01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01-001		87922
+	838311796	FOOTSTEPS_Sand_PRE05	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Sand_PRE05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE05		38240
+	889562883	FOOTSTEPS_Obsidian_PRE01-004	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Obsidian_PRE01-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-004		51802
+	959525287	Ellen_Footsteps_Puddle_Run_08	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\Ellen_Footsteps_Puddle_Run_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_08		93812
+	967897417	FOOTSTEPS_Wood_PRE_01-004	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Wood_PRE_01-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01-004		92422
+	994912220	FOOTSTEPS_Sand_PRE01	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Sand_PRE01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE01		45480
+	1035619366	FOOTSTEPS_Obsidian_PRE01	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Obsidian_PRE01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01		41490
+	1064961950	DieVOXScream	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\DieVOXScream_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Die\Die\DieVOXScream		254276
+	1071860821	Ellen_Footsteps_Puddle_Run_07	Y:\Development\Games\Unity\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Mac\SFX\Ellen_Footsteps_Puddle_Run_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_07		93444
+

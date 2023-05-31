@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A786877B-056A-4984-85BF-FA6D23A53EC1}" SchemaVersion="110" RootDocumentID="{36BC8074-5933-40DD-9D65-C0CBD10BFCF0}" ParentDocumentID="{36BC8074-5933-40DD-9D65-C0CBD10BFCF0}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{A786877B-056A-4984-85BF-FA6D23A53EC1}" OwnerID="{36BC8074-5933-40DD-9D65-C0CBD10BFCF0}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchContainer Name="Ambience" ID="{3B115888-3585-431B-9DA3-6846B6805D55}" ShortID="33890207">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Rocky" ID="{40932AC7-6260-4498-B66D-A3B3180AB0D6}" WorkUnitID="{CA442BAE-A5BC-4189-B190-8770F5A1EE5D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Environment" ID="{5C24CD93-BEA6-4D2A-A3B9-908E985BBFA0}" WorkUnitID="{CA442BAE-A5BC-4189-B190-8770F5A1EE5D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Ambience_Rocky" ID="{AEB57FA8-7054-40A5-83EF-A14D41B599F8}" ShortID="133859963">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WINDGust_Mountain" ID="{2DB14E05-FBC3-4D92-9188-9B8668820863}" ShortID="928673788">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WINDGust_Mountain" ID="{767133EE-4F19-43DF-945C-716001137016}">
+											<Language>SFX</Language>
+											<AudioFile>WINDGust_Mountain.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="174242076"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WINDGust_Mountain" ID="{767133EE-4F19-43DF-945C-716001137016}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Ambience_Forest" ID="{65C65A86-D65C-41F6-9588-8F8DB70BFD23}" ShortID="354203555">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMBTrop-Forest" ID="{7B4AA0A5-4DA5-4CCF-A6AA-AC8C168B73E5}" ShortID="240903527">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMBTrop-Forest" ID="{290FDF20-3D9D-49C9-BC33-053B3B067C18}">
+											<Language>SFX</Language>
+											<AudioFile>AMBTrop-Forest.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="246010067"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMBTrop-Forest" ID="{290FDF20-3D9D-49C9-BC33-053B3B067C18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Ambience_Sand" ID="{2F315C5D-7A59-413E-BE07-9564BDFB285B}" ShortID="486746026">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WATRSurf- Sand" ID="{0EDD324F-04CD-468C-914A-656C246EF0B2}" ShortID="440278201">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WATRSurf- Sand" ID="{01B976B3-BF10-45DB-9D37-279681BD4C07}">
+											<Language>SFX</Language>
+											<AudioFile>WATRSurf- Sand.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="789838595"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WATRSurf- Sand" ID="{01B976B3-BF10-45DB-9D37-279681BD4C07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Ambience_Swamp" ID="{C478DF28-05FE-4932-9C92-FB6006A4A1A7}" ShortID="34577120">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMBSwamp" ID="{77386AFE-919C-45A7-8F65-442D0D5584B9}" ShortID="518770136">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMBSwamp" ID="{56C51630-1D1E-4B57-9875-5798FBEDC6F1}">
+											<Language>SFX</Language>
+											<AudioFile>AMBSwamp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="694976049"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMBSwamp" ID="{56C51630-1D1E-4B57-9875-5798FBEDC6F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Ambience_Swamp" ID="{C478DF28-05FE-4932-9C92-FB6006A4A1A7}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Ambience_Sand" ID="{2F315C5D-7A59-413E-BE07-9564BDFB285B}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Ambience_Forest" ID="{65C65A86-D65C-41F6-9588-8F8DB70BFD23}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Ambience_Rocky" ID="{AEB57FA8-7054-40A5-83EF-A14D41B599F8}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Swamp" ID="{6A060D5D-3C2C-4602-ADF2-660813BB088D}"/>
+								<ItemList>
+									<ItemRef Name="Ambience_Swamp" ID="{C478DF28-05FE-4932-9C92-FB6006A4A1A7}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Forest" ID="{90C4149B-4631-4C26-B52E-A3FE29B64975}"/>
+								<ItemList>
+									<ItemRef Name="Ambience_Forest" ID="{65C65A86-D65C-41F6-9588-8F8DB70BFD23}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Rocky" ID="{40932AC7-6260-4498-B66D-A3B3180AB0D6}"/>
+								<ItemList>
+									<ItemRef Name="Ambience_Rocky" ID="{AEB57FA8-7054-40A5-83EF-A14D41B599F8}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Sand" ID="{41BB29CE-8A6F-4B5C-9D85-ED54B3A2B0CA}"/>
+								<ItemList>
+									<ItemRef Name="Ambience_Sand" ID="{2F315C5D-7A59-413E-BE07-9564BDFB285B}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

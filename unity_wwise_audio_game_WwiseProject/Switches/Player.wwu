@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CA442BAE-A5BC-4189-B190-8770F5A1EE5D}" SchemaVersion="110" RootDocumentID="{517B28EA-8853-487C-BA53-8696FDAE5499}" ParentDocumentID="{517B28EA-8853-487C-BA53-8696FDAE5499}">
+	<Switches>
+		<WorkUnit Name="Player" ID="{CA442BAE-A5BC-4189-B190-8770F5A1EE5D}" OwnerID="{517B28EA-8853-487C-BA53-8696FDAE5499}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Environment" ID="{5C24CD93-BEA6-4D2A-A3B9-908E985BBFA0}">
+					<ChildrenList>
+						<Switch Name="Rocky" ID="{40932AC7-6260-4498-B66D-A3B3180AB0D6}"/>
+						<Switch Name="Forest" ID="{90C4149B-4631-4C26-B52E-A3FE29B64975}"/>
+						<Switch Name="Sand" ID="{41BB29CE-8A6F-4B5C-9D85-ED54B3A2B0CA}"/>
+						<Switch Name="Swamp" ID="{6A060D5D-3C2C-4602-ADF2-660813BB088D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

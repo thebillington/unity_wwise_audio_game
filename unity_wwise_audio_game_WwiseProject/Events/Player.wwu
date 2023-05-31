@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{42AC93D2-84F1-4C38-A8DE-637DA0359575}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Player" ID="{42AC93D2-84F1-4C38-A8DE-637DA0359575}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{2E9F7D9A-139D-4B68-B65D-C9EB4DC78522}">
+					<ChildrenList>
+						<Action Name="" ID="{71E16C42-5617-4445-9458-365905217E48}" ShortID="591297590">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{F1994C13-80AB-402E-ACE1-B71DD6EB69BA}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death" ID="{6600F539-B933-4A4B-BA33-6F133D97872A}">
+					<ChildrenList>
+						<Action Name="" ID="{19EA94B9-D235-4590-AE7E-BBA870B96276}" ShortID="951420643">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Die" ID="{AF478148-2B3B-4C08-A6E3-16E0C137A72D}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Scanner" ID="{839E0080-0E43-43BA-96DF-A3A546DAACA9}">
+					<ChildrenList>
+						<Action Name="" ID="{63ED11E8-90B5-409D-A830-026BE242725C}" ShortID="135278920">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scanner" ID="{5AA0514B-C488-4AC3-837A-7F602B3AE958}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

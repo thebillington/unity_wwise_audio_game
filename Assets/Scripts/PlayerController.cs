@@ -5,13 +5,14 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+    private AudioController audioController = null;
     private float speed = .2f;
     private float rotation_speed = 90f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioController = gameObject.GetComponent<AudioController>();        
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(Vector3.up * speed * Time.deltaTime);
+            audioController.triggerFootsteps();
         }
 
         if (Input.GetKey(KeyCode.DownArrow))

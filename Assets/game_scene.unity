@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 955529879}
   - component: {fileID: 955529878}
   - component: {fileID: 955529877}
+  - component: {fileID: 955529880}
   m_Layer: 0
   m_Name: player_sprite
   m_TagString: Untagged
@@ -277,7 +278,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 927dac6aabd604bcc98a105bc2708f83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -304,6 +305,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &955529880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955529876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5047d85baec024b06948e12b2f5f9b9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainBank:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 251f5f49c10074b8181e722c78c91fad, type: 2}
+  enemy:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5756f40b8541f458ebe7843bfebce4d4, type: 2}
+  envAmbience:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 63e4a251bccfa4e8697ccc18f6bfaa41, type: 2}
+  playerDeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33111e813b60a4c8c8bc684187c21194, type: 2}
+  playerFootsteps:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9e477b65ea4c54986b82160efbd6873b, type: 2}
+  playerScanner:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3cd352e972a654096ad8541135fcc99e, type: 2}
 --- !u!1 &1611330679
 GameObject:
   m_ObjectHideFlags: 0

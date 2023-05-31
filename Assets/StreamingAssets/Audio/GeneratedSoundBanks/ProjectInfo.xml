@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo>
 	<Project Name="unity_wwise_audio_game_WwiseProject" GUID="{84DA8304-9A17-43EE-A746-2771655C53D2}" Generator="2022.1.4.8202"/>
-	<CacheRoot>../../../../unity_wwise_audio_game_WwiseProject/.cache</CacheRoot>
+	<CacheRoot>../../../../unity_wwise_audio_game_WwiseProject/.cache/</CacheRoot>
 	<Platforms>
-		<Platform Name="Mac" GUID="{5C20928B-09FB-4CF7-9558-9415D0CBACFF}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../unity_wwise_audio_game_WwiseProject/GeneratedSoundBanks/Mac"/>
-		<Platform Name="Windows" GUID="{8EE31B14-8865-4095-BAE9-FEAE48EE6FC9}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../unity_wwise_audio_game_WwiseProject/GeneratedSoundBanks/Windows"/>
+		<Platform Name="Mac" GUID="{5C20928B-09FB-4CF7-9558-9415D0CBACFF}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../unity_wwise_audio_game_WwiseProject/GeneratedSoundBanks/Mac/"/>
+		<Platform Name="Windows" GUID="{8EE31B14-8865-4095-BAE9-FEAE48EE6FC9}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../unity_wwise_audio_game_WwiseProject/GeneratedSoundBanks/Windows/"/>
 	</Platforms>
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{A344D4E8-F5C6-496C-8F36-DB54FFA2B71F}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{58835549-350A-39FF-3839-4F6A6A486592}</FileHash>
+	<FileHash>{6BEE623C-A435-27B0-B887-0E33096DF896}</FileHash>
 </ProjectInfo>

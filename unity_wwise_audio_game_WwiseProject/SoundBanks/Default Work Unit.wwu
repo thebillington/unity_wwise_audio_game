@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{DE0FF452-D960-4BBA-B65A-D04D6E90A929}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Weapon" ID="{FBFD5313-FE49-497F-BEFB-0B6841A553E1}" WorkUnitID="{68A613D0-6474-4F69-9D82-62DCB9C016F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Environment" ID="{216E3E18-8C8A-42B9-9ACD-E856856A9133}" WorkUnitID="{216E3E18-8C8A-42B9-9ACD-E856856A9133}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy" ID="{60D2192E-99AA-466F-8ACA-28DB9CB1726D}" WorkUnitID="{60D2192E-99AA-466F-8ACA-28DB9CB1726D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{42AC93D2-84F1-4C38-A8DE-637DA0359575}" WorkUnitID="{42AC93D2-84F1-4C38-A8DE-637DA0359575}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

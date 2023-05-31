@@ -5,8 +5,11 @@ using UnityEngine;
 public class AudioController : MonoBehaviour {
 
     public AK.Wwise.Bank mainBank = null;
+
     public AK.Wwise.Event enemy = null;
+
     public AK.Wwise.Event envAmbience = null;
+
     public AK.Wwise.Event playerDeath = null;
     public AK.Wwise.Event playerFootsteps = null;
     public AK.Wwise.Event playerScanner = null;
@@ -27,5 +30,9 @@ public class AudioController : MonoBehaviour {
 
     private void endFootseps(object in_cookie, AkCallbackType in_type, object in_info) {
         footstepsIsPlaying = false;
+    }
+
+    public void setTerrainSwitch(string switchValue) {
+        AkSoundEngine.SetSwitch("Environment", switchValue, gameObject);
     }
 }

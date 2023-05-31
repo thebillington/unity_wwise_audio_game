@@ -343,6 +343,30 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 3cd352e972a654096ad8541135fcc99e, type: 2}
+  forestSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8109468c3d93a4b31abc00ba45d834ef, type: 2}
+  rockySwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2031da2c1f5904f1883cfc598f4cc116, type: 2}
+  beachSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 278af9a4e694c40ffa1ee12a8e4d79f5, type: 2}
+  swampSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bd0154860d649495fb02ee264c11aedd, type: 2}
 --- !u!114 &955529881
 MonoBehaviour:
   m_ObjectHideFlags: 0

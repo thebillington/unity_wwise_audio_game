@@ -29,7 +29,7 @@ public class TerrainManager : MonoBehaviour {
             foreach (var key in colourSwitch.Keys)
             {
                 if (key == currentColour) {
-                    print(colourSwitch[currentColour]);
+                    audioController.setTerrainSwitch(colourSwitch[currentColour]);
                 }
             }
         }

@@ -11,15 +11,6 @@
 
 namespace AK
 {
-    namespace EVENTS
-    {
-        static const AkUniqueID AMBIENCE = 85412153U;
-        static const AkUniqueID DEATH = 779278001U;
-        static const AkUniqueID ENEMY = 2299321487U;
-        static const AkUniqueID FOOTSTEPS = 2385628198U;
-        static const AkUniqueID SCANNER = 2252851541U;
-    } // namespace EVENTS
-
     namespace SWITCHES
     {
         namespace ENVIRONMENT
@@ -45,7 +36,6 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID MASTER = 4056684167U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 

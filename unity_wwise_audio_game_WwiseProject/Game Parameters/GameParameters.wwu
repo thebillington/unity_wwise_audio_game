@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1C697504-1E9B-473A-823E-78F66EE6ADF5}" SchemaVersion="110" RootDocumentID="{A57C5521-99A4-4691-9688-FDE285585894}" ParentDocumentID="{A57C5521-99A4-4691-9688-FDE285585894}">
+	<GameParameters>
+		<WorkUnit Name="GameParameters" ID="{1C697504-1E9B-473A-823E-78F66EE6ADF5}" OwnerID="{A57C5521-99A4-4691-9688-FDE285585894}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="ProportionOfArea" ID="{579F325A-710A-43F3-8ED1-2D8D5FB5A940}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

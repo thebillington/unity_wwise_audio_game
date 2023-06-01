@@ -10,6 +10,26 @@
 						<Switch Name="Sand" ID="{41BB29CE-8A6F-4B5C-9D85-ED54B3A2B0CA}"/>
 						<Switch Name="Swamp" ID="{6A060D5D-3C2C-4602-ADF2-660813BB088D}"/>
 					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="ProportionOfArea" ID="{579F325A-710A-43F3-8ED1-2D8D5FB5A940}"/>
+						<Curve Name="" ID="{5AA9ADD5-E8B7-4F1C-A779-2FBD839BEA48}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>

@@ -21,6 +21,10 @@ public class AudioController : MonoBehaviour {
         mainBank.Load();
     }
 
+    void Start() {
+        envAmbience.Post(gameObject);
+    }
+
     public void triggerFootsteps() {
         if (!footstepsIsPlaying) {
             footstepsIsPlaying = true;

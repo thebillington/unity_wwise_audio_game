@@ -36,6 +36,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="tool1_start" ID="{FA2F4E7F-0D2C-4D89-8338-A3C92749015F}"/>
+				<Event Name="tool1_stop" ID="{8F366312-B9D7-46DC-97B7-438ED7640268}"/>
+				<Event Name="tool1_lp" ID="{8EFD4BE8-DF8A-42B0-964B-5B1BD8AC1255}">
+					<ChildrenList>
+						<Action Name="" ID="{D2667622-7020-4181-86C7-CB8F0DC97832}" ShortID="966167486">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TOOL 1_SCREWDRIVER_03_lp" ID="{0548A36F-9AC2-4A3F-902E-34225370E622}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="tool2_lp" ID="{1A3213FD-B960-4745-8ED8-CBD0F4232FD1}">
+					<ChildrenList>
+						<Action Name="" ID="{41ED9F88-3B07-4ADA-8161-907DBFC9FF6F}" ShortID="39407614">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TOOL 2_RATCHET_01_lp" ID="{C8671D7D-9042-4C42-AF74-49FCAA2B50E8}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="tool2_start" ID="{91083B24-045B-4E6C-88E0-0E08F13EEF68}"/>
+				<Event Name="tool2_stop" ID="{B3E8A333-F1DA-4A3A-91FD-6ED4B1C732C9}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -18,6 +18,12 @@ namespace AK
         static const AkUniqueID ENEMY = 2299321487U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID SCANNER = 2252851541U;
+        static const AkUniqueID TOOL1_LP = 1310627419U;
+        static const AkUniqueID TOOL1_START = 1791516261U;
+        static const AkUniqueID TOOL1_STOP = 3249112967U;
+        static const AkUniqueID TOOL2_LP = 2553500482U;
+        static const AkUniqueID TOOL2_START = 1483301542U;
+        static const AkUniqueID TOOL2_STOP = 772181478U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -39,6 +45,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID DISTANCE = 1240670792U;
         static const AkUniqueID PROPORTIONOFAREA = 3059770999U;
     } // namespace GAME_PARAMETERS
 

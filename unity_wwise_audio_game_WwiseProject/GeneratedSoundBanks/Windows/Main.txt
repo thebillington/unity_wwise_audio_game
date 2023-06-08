@@ -1,9 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Environment\Ambience	
+	772181478	tool2_stop			\Player\tool2_stop	
 	779278001	Death			\Player\Death	
+	1310627419	tool1_lp			\Player\tool1_lp	
+	1483301542	tool2_start			\Player\tool2_start	
+	1791516261	tool1_start			\Player\tool1_start	
 	2252851541	Scanner			\Player\Scanner	
 	2299321487	Enemy			\Enemy\Enemy	
 	2385628198	Footsteps			\Player\Footsteps	
+	2553500482	tool2_lp			\Player\tool2_lp	
+	3249112967	tool1_stop			\Player\tool1_stop	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1229948536	Environment			\Default Work Unit\Player\Environment	
@@ -13,6 +19,9 @@ Switch	ID	Name	Switch Group			Notes
 	803837735	Sand	Environment			
 	1863277111	Rocky	Environment			
 	2907906111	Swamp	Environment			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\GameParameters\Distance	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	46625120	FOOTSTEPS_Sand_PRE04	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Sand_PRE04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE04		39606
@@ -29,10 +38,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	425847914	FOOTSTEPS_Obsidian_PRE01-002	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Obsidian_PRE01-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-002		47316
 	446572749	Ellen_Footsteps_Puddle_Run_02	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\Ellen_Footsteps_Puddle_Run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_02		92708
 	459363603	FOOTSTEPS_Obsidian_PRE01-007	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Obsidian_PRE01-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-007		53294
+	471877700	ENEMY_LOD3_Base_02	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\ENEMY_Base_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy\Enemy\LOD 3\ENEMY_LOD3_Base_02		1056096
+	483887531	TOOL 1_SCREWDRIVER_03_lp	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\TOOL 1_SCREWDRIVER_03_lp_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Tool 1 - Screwdriver\tool_lp\TOOL 1_SCREWDRIVER_03_lp		240096
 	535887717	FOOTSTEPS_Wood_PRE_01-005	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Wood_PRE_01-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01-005		88236
 	555919805	FOOTSTEPS_Obsidian_PRE01-003	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Obsidian_PRE01-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-003		49684
 	600816993	FOOTSTEPS_Sand_PRE03	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Sand_PRE03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE03		44962
-	603772319	EnemyMUSCPerc	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\EnemyMUSCPerc_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy\Enemy\EnemyMUSCPerc		7515912
 	648626171	FOOTSTEPS_Wood_PRE_01	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Wood_PRE_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01		90620
 	673780605	FOOTSTEPS_Obsidian_PRE01-001	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Obsidian_PRE01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-001		48690
 	691658828	FOOTSTEPS_Wood_PRE_01-002	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Wood_PRE_01-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01-002		83000
@@ -45,10 +55,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	830234745	FOOTSTEPS_Wood_PRE_01-001	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Wood_PRE_01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01-001		87922
 	838311796	FOOTSTEPS_Sand_PRE05	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Sand_PRE05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE05		38240
 	889562883	FOOTSTEPS_Obsidian_PRE01-004	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Obsidian_PRE01-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01-004		51802
+	931250443	TOOL 2_RATCHET_01_lp	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\TOOL 2_RATCHET_01_lp_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Tool 2 -Ratchet\tool_lp\TOOL 2_RATCHET_01_lp		96096
 	959525287	Ellen_Footsteps_Puddle_Run_08	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\Ellen_Footsteps_Puddle_Run_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_08		93812
 	967897417	FOOTSTEPS_Wood_PRE_01-004	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Wood_PRE_01-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Forest\FOOTSTEPS_Wood_PRE_01-004		92422
+	972510099	ENEMY_LOD1+2_01	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\ENEMY_LOD2-1_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy\Enemy\LOD 1 + 2\LOD1\ENEMY_LOD1+2_01		1056096
 	994912220	FOOTSTEPS_Sand_PRE01	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Sand_PRE01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Sand\FOOTSTEPS_Sand_PRE01		45480
 	1035619366	FOOTSTEPS_Obsidian_PRE01	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\FOOTSTEPS_Obsidian_PRE01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Rocky\FOOTSTEPS_Obsidian_PRE01		41490
-	1064961950	DieVOXScream	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\DieVOXScream_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Die\Die\DieVOXScream		254276
+	1064961950	DieVOXScream	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\DieVOXScream_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Death\Die\DieVOXScream		254276
 	1071860821	Ellen_Footsteps_Puddle_Run_07	E:\01 PAUL SHELLEY AUDIO\00 GAME AUDIO\#14 AUDIOGAME WITH BILLY\unity_wwise_audio_game\unity_wwise_audio_game_WwiseProject\.cache\Windows\SFX\Ellen_Footsteps_Puddle_Run_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Swamp\Ellen_Footsteps_Puddle_Run_07		93444
 

@@ -28,14 +28,22 @@ namespace AK
 
             namespace SWITCH
             {
+                static const AkUniqueID DIRT = 2195636714U;
                 static const AkUniqueID FOREST = 491961918U;
+                static const AkUniqueID GRASS = 4248645337U;
                 static const AkUniqueID ROCKY = 1863277111U;
                 static const AkUniqueID SAND = 803837735U;
+                static const AkUniqueID SHIP = 284967655U;
                 static const AkUniqueID SWAMP = 2907906111U;
             } // namespace SWITCH
         } // namespace ENVIRONMENT
 
     } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID PROPORTIONOFAREA = 3059770999U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

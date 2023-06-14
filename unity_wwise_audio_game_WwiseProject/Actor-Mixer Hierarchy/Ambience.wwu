@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Ambience" ID="{A786877B-056A-4984-85BF-FA6D23A53EC1}" OwnerID="{36BC8074-5933-40DD-9D65-C0CBD10BFCF0}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="AmbienceActor" ID="{7BD15447-EFFD-45E9-9583-25DBF4D62659}" ShortID="1037892034">
+				<ActorMixer Name="Ambience" ID="{7BD15447-EFFD-45E9-9583-25DBF4D62659}" ShortID="1037892034">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
@@ -35,6 +35,8 @@
 								<BlendContainer Name="Ambience_Rocky" ID="{AEB57FA8-7054-40A5-83EF-A14D41B599F8}" ShortID="133859963">
 									<PropertyList>
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -80,6 +82,8 @@
 								<BlendContainer Name="Ambience_Forest" ID="{65C65A86-D65C-41F6-9588-8F8DB70BFD23}" ShortID="354203555">
 									<PropertyList>
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -90,9 +94,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="AMBTrop-Forest" ID="{7B4AA0A5-4DA5-4CCF-A6AA-AC8C168B73E5}" ShortID="240903527">
+										<Sound Name="Amb_Forest_L1_01" ID="{D715051E-0B4D-4336-832E-30CE6CDF6926}" ShortID="661206116">
 											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -103,21 +111,45 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AMBTrop-Forest" ID="{290FDF20-3D9D-49C9-BC33-053B3B067C18}">
-													<PropertyList>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.13206468440269"/>
-													</PropertyList>
+												<AudioFileSource Name="Amb_Forest_L1_01" ID="{6C9F1082-DC24-4ED5-BE4E-CABDDBD082E4}">
 													<Language>SFX</Language>
-													<AudioFile>AMBTrop-Forest.wav</AudioFile>
+													<AudioFile>Amb_Forest_L1_01.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="798474317"/>
+														<MediaID ID="420806805"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="AMBTrop-Forest" ID="{290FDF20-3D9D-49C9-BC33-053B3B067C18}" Platform="Linked"/>
+												<ActiveSource Name="Amb_Forest_L1_01" ID="{6C9F1082-DC24-4ED5-BE4E-CABDDBD082E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_Forest_L2_01" ID="{A2A036C1-A32F-453C-82FD-414F4F9830D4}" ShortID="324520245">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_Forest_L2_01" ID="{84C7D849-E14A-472E-964F-CBFEC7C87E3E}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_Forest_L2_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="75126713"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_Forest_L2_01" ID="{84C7D849-E14A-472E-964F-CBFEC7C87E3E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -125,6 +157,8 @@
 								<BlendContainer Name="Ambience_Sand" ID="{2F315C5D-7A59-413E-BE07-9564BDFB285B}" ShortID="486746026">
 									<PropertyList>
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -170,6 +204,8 @@
 								<BlendContainer Name="Ambience_Swamp" ID="{C478DF28-05FE-4932-9C92-FB6006A4A1A7}" ShortID="34577120">
 									<PropertyList>
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -212,9 +248,218 @@
 										</Sound>
 									</ChildrenList>
 								</BlendContainer>
+								<BlendContainer Name="Ambience_Ship" ID="{432CDD17-A45A-4ABE-BB0E-6C36DD0D639A}" ShortID="306194198">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Internal" ID="{341C1415-43A6-4DCF-A9EA-823411A826EF}" ShortID="276285036">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Amb_Ship_Internal_01" ID="{D4DC9D5F-697C-4EC3-A426-A70AB07C2706}" ShortID="543516800">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Ship_Internal_01" ID="{20A77CAF-85E9-4B83-91E0-6097A1CD849E}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Ship_Internal_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="428017111"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Ship_Internal_01" ID="{20A77CAF-85E9-4B83-91E0-6097A1CD849E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Air" ID="{295858AE-D6EF-437F-A079-EACE0E219337}" ShortID="447639615">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Amb_Ship_Air_01" ID="{AC47DBEC-9520-44E2-9179-342C6D55A586}" ShortID="203879445">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Ship_Air_01" ID="{74B22928-5235-4616-BDEB-B404E3D7B1B4}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Ship_Air_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="620552529"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Ship_Air_01" ID="{74B22928-5235-4616-BDEB-B404E3D7B1B4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Air_Reflections" ID="{0B985A23-7B3D-4C77-B750-9324A27EE2F4}" ShortID="909577407">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Amb_Ship_Air_Reflections_01" ID="{37F47392-3E26-4274-B457-221BCA2D7609}" ShortID="543069666">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Ship_Air_Reflections_01" ID="{C541ACFF-2B49-4129-9889-4CE04A2995F3}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Ship_Air_Reflections_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="249746503"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Ship_Air_Reflections_01" ID="{C541ACFF-2B49-4129-9889-4CE04A2995F3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Outer" ID="{067DCD67-8FB7-468C-A65D-01E6B2043BD9}" ShortID="299877473">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Amb_Ship_Air_Outer_01" ID="{519AC6D5-BD9B-44E7-B8DE-C60F249DFB40}" ShortID="552102539">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Ship_Air_Outer_01" ID="{99928A54-B67C-4702-B3D4-7AE0E3461D19}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Ship_Air_Outer_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="443555965"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Ship_Air_Outer_01" ID="{99928A54-B67C-4702-B3D4-7AE0E3461D19}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{F9927960-0B3B-400D-8FBE-BAA0AE7F4DF2}" ShortID="847612032">
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Air" ID="{295858AE-D6EF-437F-A079-EACE0E219337}"/>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Air_Reflections" ID="{0B985A23-7B3D-4C77-B750-9324A27EE2F4}"/>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Internal" ID="{341C1415-43A6-4DCF-A9EA-823411A826EF}"/>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Outer" ID="{067DCD67-8FB7-468C-A65D-01E6B2043BD9}"/>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Ambience_Ship" ID="{432CDD17-A45A-4ABE-BB0E-6C36DD0D639A}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+										</PropertyList>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Ambience_Swamp" ID="{C478DF28-05FE-4932-9C92-FB6006A4A1A7}"/>
 										<PropertyList>
@@ -283,6 +528,12 @@
 										<SwitchRef Name="Sand" ID="{41BB29CE-8A6F-4B5C-9D85-ED54B3A2B0CA}"/>
 										<ItemList>
 											<ItemRef Name="Ambience_Sand" ID="{2F315C5D-7A59-413E-BE07-9564BDFB285B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Ship" ID="{B06CBCE9-01FC-40C2-B377-32B032BA230B}"/>
+										<ItemList>
+											<ItemRef Name="Ambience_Ship" ID="{432CDD17-A45A-4ABE-BB0E-6C36DD0D639A}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>

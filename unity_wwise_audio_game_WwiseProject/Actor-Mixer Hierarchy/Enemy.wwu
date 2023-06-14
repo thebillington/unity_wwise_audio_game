@@ -3,8 +3,18 @@
 	<AudioObjects>
 		<WorkUnit Name="Enemy" ID="{0ADC8AAE-5487-4E78-868A-5054E40F3462}" OwnerID="{36BC8074-5933-40DD-9D65-C0CBD10BFCF0}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="Enemy" ID="{87392962-2F71-444A-AA75-851898025D8F}" ShortID="792774654">
+				<ActorMixer Name="Enemy" ID="{6C87BF8C-6137-4D3B-A73D-5A444734A00C}" ShortID="287534813">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="att_50m" ID="{B647D879-3757-4BB3-AE15-C7D42453D0C8}" WorkUnitID="{82C7F24D-3E77-4F98-BD0D-6EDCEEDC50A4}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
 						</Reference>
@@ -13,8 +23,14 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Enemy" ID="{C9AD2406-41C3-4D56-A859-B33BF9642C41}" ShortID="640065185">
+						<BlendContainer Name="Enemy" ID="{8DC80C43-5083-48CE-932C-1A3229664488}" ShortID="626745501">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="att_50m" ID="{B647D879-3757-4BB3-AE15-C7D42453D0C8}" WorkUnitID="{82C7F24D-3E77-4F98-BD0D-6EDCEEDC50A4}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
 								</Reference>
@@ -23,9 +39,56 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="EnemyMUSCPerc" ID="{6E9A64E0-9F73-4A56-BF77-15F90AF35F7A}" ShortID="111636041">
+								<RandomSequenceContainer Name="LOD3" ID="{C082554E-AB6F-4018-8195-467D5B336A34}" ShortID="606173067">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Enemy_LOD3_01" ID="{0E7DC6A3-9872-4F68-94E5-ED866B4E9128}" ShortID="284760917">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Enemy_LOD3_01" ID="{AA0D7351-BFBA-48B7-91DA-FB17F9F5790D}">
+													<Language>SFX</Language>
+													<AudioFile>Enemy_LOD3_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="349258596"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Enemy_LOD3_01" ID="{AA0D7351-BFBA-48B7-91DA-FB17F9F5790D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<BlendContainer Name="LOD2" ID="{F9D3493F-9231-4E82-8DE8-7669E7069FC6}" ShortID="380663075">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -36,20 +99,129 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="EnemyMUSCPerc" ID="{7991EEA6-7F1A-4D60-9F56-D9B00C2D5712}">
-											<Language>SFX</Language>
-											<AudioFile>EnemyMUSCPerc.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="603772319"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<RandomSequenceContainer Name="LOD2_L1" ID="{60F44E1D-0B8A-42AE-875E-5FD9703E2614}" ShortID="581692783">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Enemy_LOD2_L1_01" ID="{BF42927F-606B-47CA-AD7C-B4F03EBC0627}" ShortID="206066633">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_LOD2_L1_01" ID="{EB143FF3-CA7E-49DF-BC00-4CDC3C7C7AFE}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_LOD2_L1_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="90592286"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_LOD2_L1_01" ID="{EB143FF3-CA7E-49DF-BC00-4CDC3C7C7AFE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="LOD2_L2" ID="{FAD27C8A-3EA4-4CF9-92E9-3A6E55CC2EEF}" ShortID="476985250">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Enemy_LOD2_L2_01" ID="{1DB39C91-2561-4035-AFF2-38517394A65C}" ShortID="455531859">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F89A777C-003D-4309-8DA3-EF3166E69007}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D5903EC-142B-4862-A17E-6175312B23E5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_LOD2_L2_01" ID="{FC9D22C0-566B-4245-8571-DC66A654B72E}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_LOD2_L2_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="899540570"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_LOD2_L2_01" ID="{FC9D22C0-566B-4245-8571-DC66A654B72E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="EnemyMUSCPerc" ID="{7991EEA6-7F1A-4D60-9F56-D9B00C2D5712}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</BlendContainer>
 							</ChildrenList>
-						</RandomSequenceContainer>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{B4173EB3-CFAD-4338-9FCF-D6F183AF48B9}" ShortID="868902067">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="LOD3" ID="{C082554E-AB6F-4018-8195-467D5B336A34}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>0</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="LOD2" ID="{F9D3493F-9231-4E82-8DE8-7669E7069FC6}"/>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

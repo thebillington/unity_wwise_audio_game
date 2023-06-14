@@ -9,6 +9,9 @@
 						<Switch Name="Forest" ID="{90C4149B-4631-4C26-B52E-A3FE29B64975}"/>
 						<Switch Name="Sand" ID="{41BB29CE-8A6F-4B5C-9D85-ED54B3A2B0CA}"/>
 						<Switch Name="Swamp" ID="{6A060D5D-3C2C-4602-ADF2-660813BB088D}"/>
+						<Switch Name="Land" ID="{BFA27F91-52C2-4E11-88FE-69BF643C9A5A}"/>
+						<Switch Name="Grass" ID="{2C2720FA-F375-4C6C-82EC-B6F7C9289438}"/>
+						<Switch Name="Ship" ID="{B06CBCE9-01FC-40C2-B377-32B032BA230B}"/>
 					</ChildrenList>
 					<SwitchOnRTPC>
 						<GameParameterRef Name="ProportionOfArea" ID="{579F325A-710A-43F3-8ED1-2D8D5FB5A940}"/>

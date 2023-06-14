@@ -1,3 +1,12 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1229948536	Environment			\Default Work Unit\Player\Environment	
+
+Switch	ID	Name	Switch Group			Notes
+	491961918	Forest	Environment			
+	803837735	Sand	Environment			
+	1863277111	Rocky	Environment			
+	2907906111	Swamp	Environment			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

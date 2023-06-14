@@ -1,6 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D5A5CC3B-6DB5-4A75-AED9-482BB615D07B}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{D5A5CC3B-6DB5-4A75-AED9-482BB615D07B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D5A5CC3B-6DB5-4A75-AED9-482BB615D07B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Ship" ID="{68C20EB7-6EE0-4CBE-8FEB-BAEE58C6A2B9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Footsteps_Ship_Metal_Walk" ID="{E5302469-2782-41AB-BCF9-10CE11C3CC11}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambience_Ship" ID="{432CDD17-A45A-4ABE-BB0E-6C36DD0D639A}" WorkUnitID="{A786877B-056A-4984-85BF-FA6D23A53EC1}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Land" ID="{BFA27F91-52C2-4E11-88FE-69BF643C9A5A}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Environments" ID="{679BEB9F-4559-46E6-A8F3-3A6C937741EF}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Ambience_Forest" ID="{65C65A86-D65C-41F6-9588-8F8DB70BFD23}" WorkUnitID="{A786877B-056A-4984-85BF-FA6D23A53EC1}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps_Forest_Walk" ID="{B8881C46-D801-446F-8FC8-73E6C3FA92F4}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps_Forest_Run" ID="{30572DC0-AEA1-46B0-BB25-2CCD67A367B3}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps_Dirt_Walk" ID="{E69B8494-218E-4286-A537-5AB3A93F1854}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps_Dirt_Run" ID="{2351D6F2-02AD-48EB-8BFD-C8250DC54EB4}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps_Grass_Walk" ID="{C01E51EE-828C-448E-91C0-087A0F485DAD}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps_Grass_Run" ID="{7AFEF244-4DD6-4AC5-B0BE-042A7ED2F1FD}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambience_Ship" ID="{432CDD17-A45A-4ABE-BB0E-6C36DD0D639A}" WorkUnitID="{A786877B-056A-4984-85BF-FA6D23A53EC1}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps_Ship_Metal_Walk" ID="{E5302469-2782-41AB-BCF9-10CE11C3CC11}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambience_Swamp" ID="{C478DF28-05FE-4932-9C92-FB6006A4A1A7}" WorkUnitID="{A786877B-056A-4984-85BF-FA6D23A53EC1}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps_Swamp_Walk" ID="{C698B292-DC03-406D-8B28-A54B54AF9FF2}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps_Swamp_Run" ID="{75CA67BA-0CE6-460A-A49D-33DDE20A3CC7}" WorkUnitID="{0BD6B9A4-2836-482C-BE6F-0BA3C7BDCAEA}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Land" ID="{BFA27F91-52C2-4E11-88FE-69BF643C9A5A}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
